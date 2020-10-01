@@ -15,7 +15,14 @@
 
 const addValues = (arr, obj) => {
   // Insert missing solution please
-};
+  return arr.map((item) => {
+    if (typeof obj === "object") {
+      return {...item, ...obj};
+    }else {
+      return item;
+    }})
+  };
+
 
 // Part 2 - Test
 // --------------

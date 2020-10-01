@@ -10,6 +10,7 @@
 
 const wrapAfter40Chars = (paragraph) => {
   // Your code here
+  
 };
 
 // Part 2 - Test

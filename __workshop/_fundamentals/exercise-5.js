@@ -9,6 +9,20 @@
 
 const addNumbers = (...nums) => {
   // Insert missing solution please
+  var sum = 0;
+
+  if (nums.length === 0) {
+    return undefined;
+  }
+
+  nums.forEach((element) => {
+    if (typeof element === "number") {
+      sum += element * element;
+    } else {
+      return;
+    }
+  });
+  return sum;
 };
 
 // Part 2 - Test
