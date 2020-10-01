@@ -67,4 +67,4 @@ function racingFrog(racer) {
       },Math.random() * 1000);
 }
 //Write a forEach that will call racingFrog() for each frog in the racers array.
-racers.forEach(racingFrog);
+racers.forEach(racingFrog); 

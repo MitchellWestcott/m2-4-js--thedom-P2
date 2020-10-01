@@ -19,5 +19,5 @@ test("Exercise 1", () => {
   ]);
 
 });
-
+ 
 // More info on jest expect: https://jestjs.io/docs/en/expect
